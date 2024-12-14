@@ -1,0 +1,26 @@
+{
+  "name": "starter",
+  "browserslist": "last 2 versions, > 0.5% and ie >= 11",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "babel src --out-dir dist"
+  },
+  "author": "Faizi",
+  "license": "ISC",
+  "core-js": "3.39.0",
+  "dependencies": {
+    "core-js": "^3.39.0",
+    "leaflet": "^1.9.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "lodash-es": "^4.17.21",
+    "parcel": "^2.13.0",
+    "regenerator-runtime": "^0.14.1"
+  },
+  "keywords": [],
+  "description": ""
+}
